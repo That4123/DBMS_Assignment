@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+    margin: 10px;
+}
+i {
+    padding-right: 10px;
+}
+.add-btn:hover{
+    background-color: #cac4c4;
+}
+.add-btn{
+    border: 1px solid;
+    margin: 10px;
+    min-height: 40px;
+    padding: 5px 12px;
+}
+.search-box {
+    border: solid 1px black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.search-box input {
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100px;
+}
+.search-box select {
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100px;
+}
+.search-box label {
+    margin: 0 5px;
+}
+.search-box button{
+    padding: 0 5px;
+}
+.close-filter{
+    padding: 0 5px;
+}
+.Printer-List{
+    background-color: rgb(228, 238, 247);
+    list-style: none;
+    padding: 20px;
+}
+i.ti-printer {
+    font-size: 80px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 9px 5px;
+    display: block;
+    float:left;
+    
+}
+.Printer-Block{
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 5px 5px 2.5px 0px #888888;
+    width: 22.4vw;
+    
+}
+#Printer-header{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 19px;
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-bottom: 0;
+    
+}
+.status-dot{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  float: right;
+}
+.Printer-body {
+    display: block;
+    float: left;
+    margin-left: 5px;
+    line-height: 1.3;
+}
+.Switch-status-btn {
+    display: block;
+    float:right;
+    border: 1px solid;
+    min-width: 70px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    margin-top: 5px;
+}
+.Switch-status-btn:hover{
+    background-color: gray;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    
+}
+.delete-btn{
+    color: red;
+    padding: 0px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 3px 3px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.delete-btn:hover{
+    background-color: gray;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    
+}
+
+.printer-information{
+    background-color: #c8e7fa;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.printer-information label{
+    margin-top: 5px;
+    box-sizing: border-box;
+    height: 40px;
+    min-width: 120px;
+}
+.printer-information input {
+    padding: 3px;
+}
+.Information-box{
+    display: block;
+    border: solid 1px;
+}
+.view-information i{
+    font-size: 100px !important;
+    margin-top: 10px;
+}
+.Edit-status span{
+    display: inline-block;
+    padding-right: 10px;
+    min-width: 170px;
+   
+
+}
+.Edit-status {
+    display: inline-block;
+}
+.btn1{
+    float: right;
+    font-size: 20px;
+    margin-left: 30px;
+    padding:  3px 10px;
+    border-style:solid;
+    border-color: #000;
+    border-width: 1px;
+    min-width: 120px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: rgba(202,196,196,0.5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+.huy {
+    background-color: rgba(241, 47, 47, 0.8) ;
+}
+.confirm-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 9; /* Đặt giá trị z-index cao hơn để hiển thị trên cùng */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Màu nền mờ */
+    z-index: 9; /* Đặt giá trị z-index dưới hộp thoại */
+  }
+  .Add-printer-form {
+    display: inline-block;
+    font-size: 20px;
+    margin:5px;
+  }
+  .Add-printer-form label{
+    display: inline-block;
+    padding: 5px;
+    min-width: 130px;
+  }
+  .Add-printer-form .btn1 {
+    margin-top: 10px;
+  }
+  .Add-printer-form p{
+    color: red;
+    font-size:medium;
+  }
+  .printer-information p{
+    color: red;
+    font-size: medium;
+  }
+  .btn1.change-btn{
+    float: right;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding:  3px 5px;
+    border-style:solid;
+    border-color: #000;
+    border-width: 1px;
+    min-width: 80px;
+    max-height: fit-content;
+    background-color: #96faed;
+    border-radius: 5px;
+  }
+  .confirm-content i {
+    font-size: 20px;
+    color: red;
+
+  }
+  .confirm-content p {
+    display: block;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  #error-message2 {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
