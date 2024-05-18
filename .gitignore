@@ -3,3 +3,4 @@ node_modules
 hcmut_spss.sql
 --SQLite.sql
 spss.db
+package-lock.json
