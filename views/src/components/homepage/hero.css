@@ -1,0 +1,9 @@
+.hero {
+    background-image: url("../../img/hero.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.heroImg{
+    visibility: hidden;
+}

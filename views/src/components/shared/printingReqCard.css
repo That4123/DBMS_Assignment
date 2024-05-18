@@ -1,0 +1,9 @@
+.float-animation {
+    transition: transform 0.3s;
+}
+
+.float-animation:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px;
+    background-color: aliceblue;
+}

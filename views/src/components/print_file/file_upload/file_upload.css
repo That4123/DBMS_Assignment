@@ -1,0 +1,32 @@
+
+
+.input-group-text {
+    background-color: #D9D9D9;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.complete-config-ctn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  /* Style for the modal content */
+ .popup-complete-config {
+    position: relative !important;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    width: 35%;
+  }

@@ -1,0 +1,65 @@
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+  .Buy-paper-box {
+    display: block;
+    margin: 10px 35px;
+    background-color: rgb(179, 250, 229);
+    width: 500px;
+    font-size: 18px;
+    padding: 10px;
+    height: 180px;
+  }
+  .Buy-paper-box h3 {
+    font-size: 20px;
+    display: inline;
+  }
+  .Buy-paper-box  p{
+    color: green; 
+    font-size: 20px;
+    display: inline;
+    padding: 5px 0;
+  }
+  .Buy-paper-box label{
+    margin-right: 10px;
+    display: inline;
+  }
+  .confirm-content1 i{
+    color: blue;
+    font-size: 25px;
+  }
+  .confirm-content1 p{
+    font-size: 22px;
+
+  }
+  .confirm-content2 i{
+    color: blue;
+    font-size: 25px;
+  }
+  .confirm-content2 p{
+    font-size: 22px;
+
+  }
+  .btn1.khong{
+    margin-left: 0px;
+    background-color: rgb(245, 161, 161);
+  }
+.Purchase-log h2{
+  margin-left: 20px;
+}
+#buy-service
+{
+  margin-left: 20px;
+}

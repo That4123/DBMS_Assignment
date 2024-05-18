@@ -1,0 +1,121 @@
+.title-config-container{
+    text-align: center;
+}
+    .prtview-button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    }
+
+    .prtview-button-container  .configbtn,.config-printbtn {
+    background-color: #0F172B;
+    color: #FFFFFF;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    }
+
+    .prtview-button-container  .configbtn:hover {
+    color: #9999FF;
+    }
+    .config-printbtn-span .config-printbtn{
+        color:black;
+        background-color: #9999FF;
+        
+    }
+    .config-printbtn-span .config-printbtn:hover{
+        background-color: #7474ff;
+    }
+
+
+.configbtn{
+    margin-right:10px
+}
+.cfm-config-ctn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cfm-config-ctn .popup-confirm-config{
+    position: relative !important;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 35%;
+}
+.cfm-config-ctn .upload-file-name{
+    border-radius: 10px;
+    border-style: groove;
+    padding-left: 10px;
+}
+.cfm-config-ctn .selected-printer-confirm-ctn{
+    border-style: groove;
+    height: fit-content;
+}
+.cfm-config-ctn .selected-printer-confirm-lb{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.cfm-config-ctn .slt-prt-info{
+    display: table;
+    width: 100%;
+    height: 200px;
+}
+.cfm-config-ctn .slt-prt-cfm-left{
+    position: absolute;
+    left: inherit;
+    width: 50%;
+}
+.cfm-config-ctn .slt-prt-cfm-right{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+.cfm-config-ctn .cfm-config-p{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+.cfm-config-ctn .btn-ctn-cfm-cfg{
+    display: flex;
+    justify-content: space-around;
+}
+.cfm-config-ctn .cfm-config-btn{
+    color:black;
+    background-color: #9999FF;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.cfm-config-ctn .cfm-config-btn:hover{
+    background-color: #7474ff;
+}
+
+.popup-confirm-config h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
