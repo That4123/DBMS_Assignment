@@ -1,0 +1,130 @@
+.config-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+    margin: 20px 35% 20px 35%;
+  }
+  
+  .config-container .attribute-config {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .config-container .side-page-config{
+    justify-content: center;
+  }
+  
+  .config-container .attribute-config label {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .config-container .attribute-config select {
+    width: 75%;
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .config-container .side-page-config button {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .config-container .side-page-config button:hover {
+    background-color: #eeeeee;
+  }
+  
+  .config-container .side-page-config button.active {
+    background-color: #9999FF;
+    color: #ffffff;
+  }
+  .config-container .side-page-config button:first-child{
+    margin-right: 10px;
+  }
+  .config-container .side-page-config .back-btn{
+    background-color: #FF8585;
+    color:black;
+  }
+  .config-container .side-page-config .complete-btn{
+    background-color: #9999FF;
+    color:black;
+  }
+  .config-container .side-page-config .back-btn:hover{
+    background-color: #f85555;
+  }
+  .config-container .side-page-config .complete-btn:hover{
+    background-color: #6f6ffe;
+  }
+
+  .config-container .attribute-config input {
+    width: 75%;
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+
+
+  .complete-config-ctn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the modal content */
+ .popup-complete-config {
+    position: relative !important;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    width: 35%;
+  }
+  
+  /* Style for the close button inside the modal */
+  .popup-complete-config  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  .popup-complete-config h2{
+    border-color: black;
+    border-bottom-style: groove;
+  }
+  .popup-complete-config  .span-complete-config{
+    display: inline-flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+  /* .popup-complete-config  .span-complete-config .complete-noti-content{
+
+  } */
+  .popup-complete-config  .span-complete-config .complete-noti-btn{
+    background-color: #9999FF;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .popup-complete-config  .span-complete-config .complete-noti-btn:hover{
+    background-color: #6f6ffe;
+  }
+  
+  
