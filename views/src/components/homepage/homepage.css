@@ -1,0 +1,15 @@
+.homepage-container {
+    transition: background-image 5s ease, opacity 5s ease;
+}
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number {
+    color: blue;
+    font-weight: 900;
+    font-size: 60px
+}
+  
