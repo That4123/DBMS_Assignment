@@ -1,0 +1,70 @@
+    .pringting-status-ctn h1{
+        text-align: center;
+        color:black !important  ;
+    }
+    .printingLog-queue-ctn{
+        margin: 0% 20%;
+    }
+    .printingLog-single-ctn {
+        display: flex;
+        background-color:   #0F172B;
+        color:#eee;
+        border-radius: 2cm;
+        padding: 10px 0;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .printingLog-single-ctn:hover {
+        background-color:rgb(25, 47, 105);
+        cursor: pointer;
+    }
+        
+    .printingLog-single-ctn:active {
+        background-color: #0F172B;
+    }
+
+    .left-single-printingLog {
+        flex: 3;
+        margin-left: 30px;
+    }
+    
+    .left-single-printingLog p {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    
+    .right-single-printingLog {
+        flex: 1;
+        text-align: center;
+        margin-right: 30px;
+    }
+    
+    .right-single-printingLog p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .right-single-printingLog p {
+        padding: 5px 10px;
+    }
+    .btn-printingLog-ctn{
+        margin-left: 65%;
+        /* padding-right: 20%; */
+        justify-content: end;
+        margin-bottom: 2%;
+    }
+    .btn-printingLog-ctn button{
+        color:black;
+        background-color: #9999FF;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+    .btn-printingLog-ctn button:hover{
+        background-color: #7474ff;
+    }
+    .pringting-status-ctn h3{
+        text-align: center;
+    }
