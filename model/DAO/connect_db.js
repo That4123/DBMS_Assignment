@@ -1,23 +1,4 @@
-/*
-    ATTENTION: Right now, the database is hard-coded.
-    Due to that, I just export the database object.
-    When you want to change to a real DB, you should export only the connection variable and no function.
-    All APIs to access to the DB should be specified in distict JS files according to the model that each file is representing.
-*/
-// var mysql = require("mysql2")
 
-// var connect_DB = mysql.createConnection({
-//     host: "localhost",
-//     user: "root",
-//     password: "",
-//     database: "hcmut_spss"
-// });
-
-// connect_DB.connect(function(err) {
-//     if (err) throw err;
-// });
-
-// module.exports = connect_DB;
 const Database = require('better-sqlite3')
 const DBSOURCE = "spss.db"
 const connect_DB = new Database(DBSOURCE, {fileMustExist: true, verbose: console.log})
@@ -55,7 +36,9 @@ get = (sql, params, callback) => {
         callback(err, null);
     }
 }
-  
+
+
+
   module.exports = {
     all,
     run,
