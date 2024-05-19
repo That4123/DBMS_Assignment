@@ -1,7 +1,7 @@
 const express = require('express');
 const homepage_router = express.Router();
 const homepage_controller = require('../controllers/homepage');
-const path = require("path");
+// const path = require("path");
 
 homepage_router.get("/", homepage_controller.load);
 
